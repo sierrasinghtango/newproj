@@ -1,6 +1,6 @@
 # newproj
 #####this is just a demo project to learn git
-######I have learned :
+I have learned :
 -initializing a repository
 -staging
 -committing
