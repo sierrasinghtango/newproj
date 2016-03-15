@@ -7,5 +7,7 @@ I have learned :
 - pushing changes to remote dir
 - making a shorthandle for a remote repository
 - branching
-
+- forking
+- cloning
+- editing readme.md !!!
 -
