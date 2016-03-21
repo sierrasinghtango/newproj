@@ -10,3 +10,7 @@ I have learned :
 - forking
 - cloning
 - editing readme.md
+- cloning a project
+- forking a project
+- about pull request
+thats all!!
