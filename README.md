@@ -14,4 +14,6 @@ I have learned :
 - forking a project
 - about pull request
 # New Section
+![Diagram](http://jgraph.github.io/drawio-github/diagram.png)
+
 thats all!!
