@@ -13,7 +13,7 @@ I have learned :
 - cloning a project
 - forking a project
 - about pull request
-# New Section
+# Embedded Diagram
 ![Diagram](https://github.com/sumitoma/testproj/blob/master/Sample%20Diag.svg)
 
 thats all!!
