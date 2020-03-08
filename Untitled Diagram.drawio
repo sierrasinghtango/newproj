@@ -1,1 +1,64 @@
-<mxfile host="www.draw.io" modified="2020-03-08T12:03:38.080Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" version="12.8.1" etag="Nbjrj3jC3UV5SSJ6RW4-" type="github"><diagram id="fYlT-qgMvDmgtbf688Lp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-08T14:21:15.585Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="pxtucf-mGZ8sndkRXdn3" version="12.8.1" type="github">
+  <diagram id="fYlT-qgMvDmgtbf688Lp" name="Page-1">
+    <mxGraphModel dx="932" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="900" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="840" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="85" width="530" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-4" value="Old Generation(Tenured Space)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="620" y="85" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-5" value="EDEN Space" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF33;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-9" value="Stack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-10" value="Shared Libs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-11" value="S0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF33;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-12" value="S1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF33;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-13" value="Survivor Space" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-16" value="Young Generation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-17" value="Meta Space" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-18" value="Code Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="414" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-19" value="Heap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-20" value="Java Virtual Machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaRDPEM_tK5nOq3Euos4-22" value="Static Variables" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#33FF33;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
