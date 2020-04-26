@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-26T16:37:36.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="xS-Vn-sxE7dY5iG_WtKu" version="12.9.14" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-04-26T17:02:22.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="6eiGL7oRzOmKo3eEdYQU" version="12.9.14" type="github" pages="4">
   <diagram name="constructs" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1186" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -84,6 +84,12 @@
       <root>
         <mxCell id="iVER5kLABjcmQtE1dU2d-0" />
         <mxCell id="iVER5kLABjcmQtE1dU2d-1" parent="iVER5kLABjcmQtE1dU2d-0" />
+        <mxCell id="WQ0Rrx86i-H8AG27Eyf_-8" value="&lt;div style=&quot;text-align: left&quot;&gt;Food Oredering&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[Software System]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];dashed=1;perimeterSpacing=1;strokeWidth=2;" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
+          <mxGeometry x="360" y="360" width="780" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="8JJ2x5Tb1Wh6W6-MlEBy-0" value="&lt;div style=&quot;text-align: left&quot;&gt;webapp-dep&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[Docker]&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;x1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
+          <mxGeometry x="410" y="370" width="240" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="WQ0Rrx86i-H8AG27Eyf_-0" value="&lt;b&gt;User&lt;/b&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;A user who makes&amp;nbsp;&lt;span&gt;food&amp;nbsp;&lt;/span&gt;&lt;span&gt;orders&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;using Food Ordering App.&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#DAE8FC;strokeColor=#6C8EBF;shape=mxgraph.c4.person;align=center;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
           <mxGeometry x="450" y="139" width="170" height="140" as="geometry" />
         </mxCell>
@@ -108,9 +114,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WQ0Rrx86i-H8AG27Eyf_-8" value="&lt;div style=&quot;text-align: left&quot;&gt;Food Oredering&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[Software System]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];dashed=1;perimeterSpacing=1;strokeWidth=2;" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
-          <mxGeometry x="360" y="360" width="780" height="1070" as="geometry" />
-        </mxCell>
         <mxCell id="WQ0Rrx86i-H8AG27Eyf_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C2C2C2;strokeWidth=2;dashed=1;" edge="1" parent="iVER5kLABjcmQtE1dU2d-1" source="WQ0Rrx86i-H8AG27Eyf_-9" target="WQ0Rrx86i-H8AG27Eyf_-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -118,9 +121,6 @@
           <mxGeometry x="-0.161" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="WQ0Rrx86i-H8AG27Eyf_-9" value="&lt;span&gt;&lt;b&gt;Web App&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;JS...&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Provides user interface for Food Ordering app&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
-          <mxGeometry x="455" y="390" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="WQ0Rrx86i-H8AG27Eyf_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="iVER5kLABjcmQtE1dU2d-1" source="WQ0Rrx86i-H8AG27Eyf_-11" target="WQ0Rrx86i-H8AG27Eyf_-14">
           <mxGeometry relative="1" as="geometry">
@@ -221,6 +221,9 @@
         </mxCell>
         <mxCell id="WQ0Rrx86i-H8AG27Eyf_-35" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;RDBMS]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Stores user and user settlement info&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
           <mxGeometry x="955" y="820" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ0Rrx86i-H8AG27Eyf_-9" value="&lt;span&gt;&lt;b&gt;Web App&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;JS...&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Provides user interface for Food Ordering app&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
+          <mxGeometry x="455" y="390" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
