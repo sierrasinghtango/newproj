@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-26T14:32:40.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="lysNzYN8j08_qZOFX7w8" version="12.9.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-26T14:50:25.250Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ETOvCjrqIHVlsshnjHSY" version="12.9.14" type="github" pages="4">
   <diagram name="constructs" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1186" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nY4mqPsyCwZvlffXtZ7T" name="Food Ordering(Context)">
-    <mxGraphModel dx="1186" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="p07r0v59CdmFvAj8AwTj-0" />
         <mxCell id="p07r0v59CdmFvAj8AwTj-1" parent="p07r0v59CdmFvAj8AwTj-0" />
@@ -221,6 +221,60 @@
         </mxCell>
         <mxCell id="WQ0Rrx86i-H8AG27Eyf_-35" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;RDBMS]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Stores user and user settlement info&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
           <mxGeometry x="955" y="820" width="130" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K-KGdg62RyNKaORKPIig" name="Food Ordering - User Service(Component)">
+    <mxGraphModel dx="946" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="DemyfO0SijdBYzkh8qXn-0" />
+        <mxCell id="DemyfO0SijdBYzkh8qXn-1" parent="DemyfO0SijdBYzkh8qXn-0" />
+        <mxCell id="DemyfO0SijdBYzkh8qXn-2" value="&lt;div style=&quot;text-align: left&quot;&gt;User Service&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[Container]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];dashed=1;" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="160" y="300" width="760" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cwLI-g2UCBUOxcbA-BsU-10" value="creates user settlements using&lt;br&gt;[JSON/Http]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="DemyfO0SijdBYzkh8qXn-3" target="cwLI-g2UCBUOxcbA-BsU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="DemyfO0SijdBYzkh8qXn-3" target="cwLI-g2UCBUOxcbA-BsU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-1" value="authenticates, authorizes and create users using&lt;br&gt;[JSON/Http]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PRDpkOtRKl7Gca0f2NAu-0">
+          <mxGeometry x="0.5781" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DemyfO0SijdBYzkh8qXn-3" value="&lt;span&gt;&lt;b&gt;API Gateway&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;Ingress&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Provides API to given microservices&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="470" y="80" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.456;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="cwLI-g2UCBUOxcbA-BsU-5" target="PRDpkOtRKl7Gca0f2NAu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-4" value="sends external order settlement event to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PRDpkOtRKl7Gca0f2NAu-3">
+          <mxGeometry x="0.2603" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cwLI-g2UCBUOxcbA-BsU-5" value="&lt;span&gt;&lt;b&gt;Message Bus&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Transports business events&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="210" y="1040" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cwLI-g2UCBUOxcbA-BsU-6" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;RDBMS]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Stores user and user settlement info&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="610" y="1020" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cwLI-g2UCBUOxcbA-BsU-7" value="&lt;span&gt;&lt;b&gt;User Settlement Time Scheduler&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Spring Boot&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Triggers user settlement balance validation&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="210" y="330" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="cwLI-g2UCBUOxcbA-BsU-8" value="&lt;span&gt;&lt;b&gt;User Settlement Controller&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component: Java Spring Boot, Spring Cloud&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Handles user settlements creation&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="470" y="330" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="cwLI-g2UCBUOxcbA-BsU-9" value="&lt;span&gt;&lt;b&gt;Sign In Controller&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Java, Spring Boot, Spring Cloud&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Allows user to sign in to Food Ordering app&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="720" y="330" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-2" value="&lt;span&gt;&lt;b&gt;Event Listener&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Spring Boot&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Processes incoming user settlement events&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="200" y="520" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-5" value="&lt;span&gt;&lt;b&gt;User Settlement Service&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Java, Spring Boot, Spring Cloud&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Enabling handling&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="470" y="520" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
