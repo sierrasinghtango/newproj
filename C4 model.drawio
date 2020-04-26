@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-26T06:43:20.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="opAphTTOS7jRmeO0EsJl" version="12.9.14" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-04-26T06:44:08.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="r9mfffHUbNzwkT0yHu8i" version="12.9.14" type="github" pages="2">
   <diagram name="constructs" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1186" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nY4mqPsyCwZvlffXtZ7T" name="Food Ordering(Context)">
-    <mxGraphModel dx="946" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="p07r0v59CdmFvAj8AwTj-0" />
         <mxCell id="p07r0v59CdmFvAj8AwTj-1" parent="p07r0v59CdmFvAj8AwTj-0" />
@@ -67,10 +67,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p07r0v59CdmFvAj8AwTj-10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;sends notifcations to&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=-0.018;entryY=0.621;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="p07r0v59CdmFvAj8AwTj-1" source="p07r0v59CdmFvAj8AwTj-8" target="p07r0v59CdmFvAj8AwTj-2">
+        <mxCell id="p07r0v59CdmFvAj8AwTj-10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;sends notifcations to&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="p07r0v59CdmFvAj8AwTj-1" source="p07r0v59CdmFvAj8AwTj-8">
           <mxGeometry width="200" relative="1" as="geometry">
             <mxPoint x="80" y="260" as="sourcePoint" />
-            <mxPoint x="280" y="260" as="targetPoint" />
+            <mxPoint x="350" y="217" as="targetPoint" />
             <Array as="points">
               <mxPoint x="100" y="217" />
             </Array>
