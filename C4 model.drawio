@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-26T14:50:25.250Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ETOvCjrqIHVlsshnjHSY" version="12.9.14" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-04-26T16:37:17.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="-fTY6mTZXKxjRt9L7CP3" version="12.9.14" type="github" pages="4">
   <diagram name="constructs" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1186" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WQ0Rrx86i-H8AG27Eyf_-3" value="&lt;b&gt;Identity Provider&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Enables user authentication and authorization.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f5f5f5;align=center;arcSize=10;strokeColor=#666666;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#b3b3b3;" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
-          <mxGeometry x="1520" y="359" width="160" height="110.00000000000001" as="geometry" />
+          <mxGeometry x="1400" y="600" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="WQ0Rrx86i-H8AG27Eyf_-5" value="&lt;b&gt;Notifier&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Provides notifications about the ordering process to be sent via a selected channel.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f5f5f5;align=center;arcSize=10;strokeColor=#666666;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#b3b3b3;" vertex="1" parent="iVER5kLABjcmQtE1dU2d-1">
           <mxGeometry x="20" y="359" width="160" height="110.00000000000001" as="geometry" />
@@ -261,20 +261,64 @@
         <mxCell id="cwLI-g2UCBUOxcbA-BsU-6" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;RDBMS]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Stores user and user settlement info&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
           <mxGeometry x="610" y="1020" width="160" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-6" value="checks user settlement&#39;s balance&lt;br&gt;using" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="cwLI-g2UCBUOxcbA-BsU-7" target="PRDpkOtRKl7Gca0f2NAu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cwLI-g2UCBUOxcbA-BsU-7" value="&lt;span&gt;&lt;b&gt;User Settlement Time Scheduler&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Spring Boot&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Triggers user settlement balance validation&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
           <mxGeometry x="210" y="330" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="cwLI-g2UCBUOxcbA-BsU-8" value="&lt;span&gt;&lt;b&gt;User Settlement Controller&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component: Java Spring Boot, Spring Cloud&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Handles user settlements creation&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
           <mxGeometry x="470" y="330" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-9" value="uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="cwLI-g2UCBUOxcbA-BsU-9" target="PRDpkOtRKl7Gca0f2NAu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cwLI-g2UCBUOxcbA-BsU-9" value="&lt;span&gt;&lt;b&gt;Sign In Controller&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Java, Spring Boot, Spring Cloud&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Allows user to sign in to Food Ordering app&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
           <mxGeometry x="720" y="330" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-7" value="uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="PRDpkOtRKl7Gca0f2NAu-2" target="PRDpkOtRKl7Gca0f2NAu-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PRDpkOtRKl7Gca0f2NAu-2" value="&lt;span&gt;&lt;b&gt;Event Listener&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Spring Boot&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Processes incoming user settlement events&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
           <mxGeometry x="200" y="520" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-12" value="uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="PRDpkOtRKl7Gca0f2NAu-5" target="PRDpkOtRKl7Gca0f2NAu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-14" value="uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="PRDpkOtRKl7Gca0f2NAu-5" target="PRDpkOtRKl7Gca0f2NAu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PRDpkOtRKl7Gca0f2NAu-5" value="&lt;span&gt;&lt;b&gt;User Settlement Service&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Java, Spring Boot, Spring Cloud&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Enabling handling&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
           <mxGeometry x="470" y="520" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-13" value="uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="PRDpkOtRKl7Gca0f2NAu-8" target="PRDpkOtRKl7Gca0f2NAu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-19" value="authn and authr using" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="PRDpkOtRKl7Gca0f2NAu-8" target="PRDpkOtRKl7Gca0f2NAu-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-8" value="&lt;span&gt;&lt;b&gt;Sign In Service&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Java, Spring Boot, Spring Cloud&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Provides functionality related to signing in, user creations and modification&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="720" y="520" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-15" value="reads and stores user settlement&lt;br&gt;&amp;nbsp;domain objects [jdbc]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="PRDpkOtRKl7Gca0f2NAu-10" target="cwLI-g2UCBUOxcbA-BsU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-10" value="&lt;span&gt;&lt;b&gt;User Settlement Repository&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;Spring Repository&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Repository for user settlement domain objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="470" y="730" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#C2C2C2;strokeWidth=2;" edge="1" parent="DemyfO0SijdBYzkh8qXn-1" source="PRDpkOtRKl7Gca0f2NAu-11" target="cwLI-g2UCBUOxcbA-BsU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-17" value="reads ans stores user data to&lt;br&gt;[jdbc]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PRDpkOtRKl7Gca0f2NAu-16">
+          <mxGeometry x="0.0204" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-11" value="&lt;span&gt;&lt;b&gt;User Repository&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Component: Spring Repository&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Repository for user domain objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="720" y="730" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PRDpkOtRKl7Gca0f2NAu-18" value="&lt;b&gt;Identity Provider&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Software System&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Enables user authentication and authorization&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="DemyfO0SijdBYzkh8qXn-1">
+          <mxGeometry x="1060" y="520" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
